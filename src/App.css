@@ -1,0 +1,49 @@
+/*global style*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.title {
+  background-color: #fbe7e9;
+  color: crimson;
+  display: inline-block;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.subTitle {
+  font-weight: 700;
+  margin: 1% 0 2% 0;
+  line-height: 40px;
+}
+.parag {
+  line-height: 1.9;
+            color: #5a5a5a;
+            font-weight: 300;
+}
+
+/*carousel*/
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+  background-color: crimson !important;
+  color: white !important;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+.owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel .owl-nav button.owl-next:focus {
+  outline: none !important;
+}
+
+/*global style*/

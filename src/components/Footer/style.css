@@ -1,0 +1,23 @@
+footer {
+    background-color: crimson;
+    padding: 60px 0;
+    
+}
+footer .parag {
+    width: 50%;
+    margin: 0 auto 2% auto;
+}
+footer ul li{
+    margin: 0 10px;
+}
+footer ul li .icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
